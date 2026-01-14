@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
+
 Console.WriteLine("Welcome to the dice throwing simulator!\n");
 Console.WriteLine("How many dice rolls would you like to simulate?");
 int rollCount = int.Parse(Console.ReadLine());
